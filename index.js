@@ -4,7 +4,7 @@ const port = 3000;
 
 app.get("/", (req, res) => {
   console.log(`${new Date()} ${req.method} ${req.path}`);
-  res.send("Hello World! - John");
+  res.send("Hello World! - Test");
 });
 
 app.get("/hello", (req, res) => {
